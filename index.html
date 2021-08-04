@@ -11,9 +11,10 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/fonts.css" />
   </head>
   <body>
@@ -39,8 +40,9 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#services" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>
+                Qualification
               </a>
             </li>
             <li class="nav__item">
@@ -414,7 +416,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id="qualification">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
         <div class="qualification__container container">
@@ -589,7 +591,9 @@
               <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Substitute Teacher</h3>
-                  <span class="qualification__subtitle">Chicago Public Schools  - USA</span>
+                  <span class="qualification__subtitle"
+                    >Chicago Public Schools - USA</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2017 - 2019
@@ -610,8 +614,12 @@
                   <!-- <span class="qualification__line"></span> -->
                 </div>
                 <div>
-                  <h3 class="qualification__title">Special Education Teacher</h3>
-                  <span class="qualification__subtitle">Chicago Public Schools - USA</span>
+                  <h3 class="qualification__title">
+                    Special Education Teacher
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Chicago Public Schools - USA</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2019 - Present
@@ -623,11 +631,151 @@
         </div>
       </section>
 
-      <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
-
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Les Choses de La Vie</h3>
+                <p class="portfolio__description">
+                  • An e-commerce website created with React/Redux.
+                  <br />
+                  • Created RESTful API to allow users to shop, maintain a
+                  persistent cart, and check out their orders.
+                  <br />
+                  • Utilized JSON Web Tokens and localStorage to store encrypted
+                  user information.
+                  <br />
+                  • Tech stack: React, Redux, Sequelize, PostgreSQL, Express.js,
+                  Node.js, Heroku
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio2.GIF"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Fluency</h3>
+                <p class="portfolio__description">
+                  • Built translation mobile app using React Native and Expo.
+                  <br />
+                  • Incorporated Google Vision API and Google Translation API to
+                  detect texts from an image and to translate texts to the
+                  language of choice.
+                  <br />
+                  • Tech stack: React Native, React Hooks, Node.js, Expo, Google
+                  Vision API, Google Translation API, Expo Speech
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Snowflakes</h3>
+                <p class="portfolio__description">
+                  • Created a portfolio website for hypothetical photographers.
+                  User can view the portfolio website, while photographers, the
+                  admins, can add and delete photos to the website as well as
+                  viewing the website.
+                  <br />
+
+                  • Utilized Firebase Authentication and Firestore to store user
+                  information and data.
+                  <br />
+
+                  • Styled website with Material-UI, Bootstrap and Vanilla CSS.
+
+                  <br />
+                  • Tech stack: React, React Hooks, Firebase, Material-UI,
+                  Bootstrap
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio4.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Todo-List</h3>
+                <p class="portfolio__description">
+                  • built a Todo List Application.
+                  <br />
+                  • built a simple CRUD application using React and Firebase.
+                  <br />
+                  • Tech stack: React, React Hooks, Firebase
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== PROJECT IN MIND ====================-->
       <section class="project section"></section>
@@ -645,7 +793,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src="assets/css/swiper-bundle.min.css"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
