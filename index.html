@@ -25,7 +25,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -59,6 +59,8 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -115,7 +117,7 @@
                     class="home__blob-img"
                     x="16"
                     y="6"
-                    href="assets/img/perfil.png"
+                    xlink:href="assets/img/perfil.png"
                   />
                 </g>
               </svg>
@@ -662,7 +664,8 @@
                 </p>
 
                 <a
-                  href="#"
+                  href="https://les-choses-de-la-vie.herokuapp.com/"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Demo
@@ -692,7 +695,8 @@
                 </p>
 
                 <a
-                  href="#"
+                  href="https://youtu.be/xLARpg0rx30"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Demo
@@ -729,7 +733,8 @@
                 </p>
 
                 <a
-                  href="#"
+                  href="https://snowflakes-7d6a3.web.app/"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Demo
@@ -756,7 +761,8 @@
                 </p>
 
                 <a
-                  href="#"
+                  href="https://www.youtube.com/watch?v=OlyA7Q0qPPE&t=62s"
+                  target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
                   Demo
@@ -919,10 +925,64 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Hannah</h1>
+            <span class="footer__subtitle">Fullstack Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#qualification" class="footer__link">Qualification</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://github.com/hannah-gkim"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github-alt button__icon"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/hannah-g-kim/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <!-- Facebook -->
+            <!-- <a href="" class="footer__social">
+              <i class="uit uit-fakebook-f"></i>
+            </a> -->
+
+            <!-- instagram -->
+            <!-- <a href="" class="footer__social">
+              <i class="uit uit-instagram"></i>
+            </a> -->
+          </div>
+        </div>
+        <!-- <p class="footer__copy">&#169; All right reserved</p> -->
+      </div>
+    </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
