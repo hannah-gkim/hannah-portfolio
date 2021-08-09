@@ -595,6 +595,13 @@ background-color: var(--first-color);
 .siwper-pagination-bullet{
     outline:none
 }
+.kanban__link{
+    color:var(--text-color)
+}
+.kanban__link:hover{
+    color:var(--first-color-lighter);
+}
+
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
