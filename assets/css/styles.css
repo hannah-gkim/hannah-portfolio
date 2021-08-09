@@ -338,6 +338,13 @@ img{
     display: inline-flex;
     align-items: center;
 }
+.submitbtn{
+    border:none;
+    font-size: 1rem;
+    color:#FFF;
+    font-family: "Poppins";
+   
+}
 /*==================== ABOUT ====================*/
 .about__img{
     width: 200px;
