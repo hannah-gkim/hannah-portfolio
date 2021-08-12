@@ -568,6 +568,9 @@ img{
     border-radius: .5rem;
     justify-self: center;
 }
+.tracker__img{
+    width:160px !important;
+}
 .portfolio__title{
     font-style: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);

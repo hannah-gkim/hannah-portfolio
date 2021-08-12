@@ -1,5 +1,5 @@
 # hannah G Kim portfolio
-### Hi there, I'm Hannah 👋
+### Hi there, I'm [Hannah][website] 👋
 
 ## I'm a Developer, Teacher and Content Creator!!
 
