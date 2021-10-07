@@ -4,17 +4,32 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 340; /* Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 340; 
+  /* --hue-color: 9;  */
+  /* Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  /* 
+  #F9e9e6 9, 61, 94
+
+  #e0b1aa 8, 47, 77
+
+  #5a595a 300, 1, 35
+
+  #f6bbac 12, 80, 82
+
+  #fcfaf6
+  #999999   0, 0, 60
+
+  */
 
   /* HSL color mode */
-  /* --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%); */
   --first-color: hsl(var(--hue-color), 69%, 85%);
+    /* --first-color: hsl(var(--hue-color), 68%, 85%); */
   --first-color-second: hsl(var(--hue-color), 69%, 85%);
-  /* --first-color-alt: hsl(var(--hue-color), 57%, 53%); */
-  --first-color-alt: hsl(var(--hue-color), 57%, 70%);
+  /* --first-color-second: hsl(var(--hue-color), 61%, 94%); */
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 95%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
+  /* --title-color: hsl(300, 1%, 35%); */
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
