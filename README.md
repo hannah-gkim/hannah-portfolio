@@ -1,4 +1,5 @@
 # hannah G Kim portfolio
+
 ### Hi there, I'm [Hannah][website] 👋
 
 ## I'm a Developer, Teacher and Content Creator!!
@@ -29,8 +30,12 @@
 
 ---
 
-[![Expense Tracker](/assets/img/readme.jpg)](https://hannahgkim.com/)
-
+<br/>
+<p align="center">
+<a href="https://hannahgkim.com/" >
+   <img width="320" height="630" src="readme.jpg">
+  </a>
+</p>
 
 [website]: https://hannahgkim.com/
 [youtube]: https://www.youtube.com/channel/UC_Fa6yrspcGcdNWEZnJmz1g
